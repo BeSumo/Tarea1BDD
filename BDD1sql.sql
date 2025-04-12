@@ -12,7 +12,7 @@ CREATE TABLE Revisor (
   RUT_revisor VARCHAR(15) PRIMARY KEY,
   nombre VARCHAR(255) NOT NULL,
   Email VARCHAR(255) NOT NULL,
-  Especialidad VARCHAR(100) NOT NULL
+  Especialidad VARCHAR(100) NOT NULL -- falta agregar especialidades
 );
 
 DROP TABLE IF EXISTS Topico;
